@@ -20,5 +20,6 @@ public class Expense extends BaseModel{
     private ExpenseType expenseType;
     @ManyToOne
     private User createdBy;
+    private int rate;
 
 }
